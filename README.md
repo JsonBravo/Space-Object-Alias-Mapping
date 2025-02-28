@@ -1,4 +1,4 @@
-# AstroBin's Space-Object-Alias-Map (SOAM)
+# Space-Object-Alias-Map (SOAM) Data Structure for Synonym File Creation
 
 **Salvatore Iovene's Website**: https://app.astrobin.com/explore/iotd-tp-archive#iotd
 
@@ -6,12 +6,14 @@
 I have provided a Haystack ElasticSearch synonyms file to Salvatore Iovene's open source AstroBin website improving its ability to search for images of space objects either by name or by a catalogue ID.
 
 ## PURPOSE
-With millions of astronomical objects listed across 14,000+ catalogues it can be quite confusing trying to know exactly what name to call that majestic looking spec in the sky. Is that M 31 or is that the Andromeda Galaxy... or is it NGC 224? A synonym file mapping each space object alias will help AstroBins search engine return the desired photos no matter which naming convention the user searches by.
+With millions of astronomical objects listed across 14,000+ catalogues it can be quite confusing trying to know exactly what name to call that majestic looking spec in the sky. Is that M 31 or is that the Andromeda Galaxy... or is it NGC 224? [hint: yes, yes, and yes]
+
+A synonym file containing each space object alias will help AstroBin's search engine return the desired photos no matter which naming convention the user searches by.
 
 ![alt text](image-1.png)
-**Photo Credit**: "M31 180 sec final copyL" KevC (user name), 2011 https://www.astrobin.com/304/?q=m31
+**Photo Credit**: "M31 180 sec final copyL" KevC (user name), 2011 https://www.astrobin.com/304/?q=m31 
 
-**A Note on the Name:** The SOAM class stands for "The Space Object Alias Map"  class, which I've created to help lead and organize the development of the synonym file. The word "soam" is defined as "... a chain by which a leading horse draws a plough. A horse-lead." 
+**A Note on the SOAM:** The homemade SOAM ("Space Object Alias Map") class is essentially a data structuring tool that can dynamically build and manage alias associations for individual objects.
 
 ## APPROACH
 Below is a summary of the FILES created and the steps taken to build up and create the final synonym file:
@@ -21,8 +23,6 @@ Below is a summary of the FILES created and the steps taken to build up and crea
 2) FILE - **`simbad_alias_search.py`**: Wrote the "simbad_alias_search.py" script to manage pulling all aliases (identifiers) of a given space object name from the SIMBAD database using astroquery using my own queue system.
 
 3) FILE - **`soam_class.py`**: Wrote the "soam_class.py" to help build up / connect up all the fractured alias associations found in the seed data `AstroCatelogues.xlsx` as well as the SIMBAD database
-
-4) FILE - **`soam_building.ipynb`**: Is a notebook where I've detailed how the SOAM was built. 
 
 **Examples of a SOAM data structure:**
 
@@ -44,6 +44,9 @@ Below is a summary of the FILES created and the steps taken to build up and crea
 
 *VISUAL EXAMPLE*:
 ![alt text](image.png)
+
+4) FILE - **`soam_building.ipynb`**: Is a notebook where I've detailed the full, cleaned SOAM data structure. 
+
 
 5) 
 
