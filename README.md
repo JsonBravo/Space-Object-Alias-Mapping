@@ -6,9 +6,9 @@
 I have provided a Haystack ElasticSearch synonyms file to Salvatore Iovene's open source AstroBin website improving its ability to search for images of space objects either by name or by a catalogue ID.
 
 ## PURPOSE
-With millions of astronomical objects listed across 14,000+ catalogues it can be quite confusing trying to know exactly what name to call that majestic looking spec in the sky. Is that M 31 or is that the Andromeda Galaxy... or is it NGC 224? [hint: yes, yes, and yes]
+With millions of astronomical objects listed across 14,000+ catalogues it can be quite confusing trying to know exactly what to call that impressive looking smear of light in you telescope lens. Is that M 31 or is that the Andromeda Galaxy... or is it NGC 224? [hint: yes, yes, and yes]
 
-A synonym file containing each space object alias will help AstroBin's search engine return the desired photos no matter which naming convention the user searches by.
+A synonym file containing each space object alias will help AstroBin's search engine return the desired photos of the specified space object no matter which naming convention the user searches by.
 
 ![alt text](image-1.png)
 **Photo Credit**: "M31 180 sec final copyL" KevC (user name), 2011 https://www.astrobin.com/304/?q=m31 
