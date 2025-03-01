@@ -1,4 +1,4 @@
-# Space-Object-Alias-Map (SOAM) Data Structure for Synonym File Creation
+# Space-Object-Alias-Map (SOAM) Data Structure and Synonym File Creation
 
 **Salvatore Iovene's Website**: https://app.astrobin.com/explore/iotd-tp-archive#iotd
 
