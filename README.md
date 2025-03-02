@@ -13,7 +13,7 @@ A synonym file containing each space object alias will help AstroBin's search en
 ![alt text](image-1.png)
 **Photo Credit**: "M31 180 sec final copyL" KevC (user name), 2011 https://www.astrobin.com/304/?q=m31 
 
-**A Note on the SOAM:** The homemade SOAM ("Space Object Alias Map") class is essentially a data structuring tool that can dynamically build and manage alias associations for individual objects.
+**A Note on the SOAM:** The homemade SOAM ("Space Object Alias Map") class is a data structuring tool that can dynamically build and manage alias associations for individual objects.
 
 ## APPROACH
 Below is a summary of the FILES created and the steps taken to build up and create the final synonym file:
@@ -30,7 +30,7 @@ Below is a summary of the FILES created and the steps taken to build up and crea
 ``` Code:
     t = Soam()
     cleaned_bulk = 
-    [["a","b","c"],["c","d"],["e","f"]] # snippits of associations (not fully associated yet)
+    [["a","b","c"],["c","d"],["e","f"]] # snippits of fractured associations (not fully associated yet)
     t.add_associations(cleaned_bulk)
     print(t.all_names())
     print(t.all_aliases())
