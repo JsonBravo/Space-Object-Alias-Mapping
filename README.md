@@ -11,6 +11,7 @@ With millions of astronomical objects listed across 14,000+ catalogues it can be
 A synonym file containing each space object alias will help AstroBin's search engine return the desired photos of the specified space object no matter which naming convention the user searches by.
 
 ![alt text](image-1.png)
+
 **Photo Credit**: "M31 180 sec final copyL" KevC (user name), 2011 https://www.astrobin.com/304/?q=m31 
 
 **A Note on the SOAM:** The homemade SOAM ("Space Object Alias Map") class is a data structuring tool that can dynamically build and manage alias associations for individual objects.
