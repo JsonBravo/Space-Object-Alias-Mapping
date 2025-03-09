@@ -19,11 +19,11 @@ A synonym file containing each space object alias will help AstroBin's search en
 ## APPROACH
 Below is a summary of the FILES created and the steps taken to build up and create the final synonym file:
 
-1) FILE - **`AstroCatelogues.xlsx`**: Wrangled some starting "seed aliases" from various online sources into a spreadsheet. (used at a later step)
+1) DATA FILE - **`AstroCatelogues.xlsx`**: Wrangled some starting "seed aliases" from various online sources into a spreadsheet. (used at a later step)
 
-2) FILE - **`simbad_alias_search.py`**: Wrote the "simbad_alias_search.py" script to manage pulling all aliases (identifiers) of a given space object name from the SIMBAD database using astroquery using my own queue system.
+2) METHOD FILE - **`simbad_alias_search.py`**: Wrote the "simbad_alias_search.py" script to manage pulling all aliases (identifiers) of a given space object name from the SIMBAD database using astroquery using my own queue system.
 
-3) FILE - **`soam_class.py`**: Wrote the "soam_class.py" to help build up / connect up all the fractured alias associations found in the seed data `AstroCatelogues.xlsx` as well as the SIMBAD database
+3) CLASS FILE - **`soam_class.py`**: Wrote the "soam_class.py" to help build up / connect up all the fractured alias associations found in the seed data `AstroCatelogues.xlsx` as well as the SIMBAD database
 
 **Examples of a SOAM data structure:**
 
@@ -46,7 +46,7 @@ Below is a summary of the FILES created and the steps taken to build up and crea
 *VISUAL EXAMPLE*:
 ![alt text](image.png)
 
-4) FILE - **`soam_building.ipynb`**: Is a notebook where I've detailed the full, cleaned SOAM data structure. 
+4) NOTEBOOK FILE - **`soam_building.ipynb`**: Is a notebook where I've detailed the full, cleaned SOAM data structure. 
 
 
 5) 
