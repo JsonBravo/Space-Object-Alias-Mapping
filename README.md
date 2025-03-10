@@ -10,7 +10,7 @@ With millions of astronomical objects listed across 14,000+ catalogues it can be
 
 A synonym file containing each space object alias will help AstroBin's search engine return the desired photos of the specified space object no matter which naming convention the user searches by.
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 **Photo Credit**: "M31 180 sec final copyL" KevC (user name), 2011 https://www.astrobin.com/304/?q=m31 
 
@@ -53,7 +53,7 @@ print(f"'c' is also known as {t.get_aliases('c')}")
 ```
 
 *VISUAL EXAMPLE*:
-![alt text](image.png)
+![alt text](images/image.png)
 
 ... see the `building_the_soam.ipynb` notebook for full details. 
 
@@ -71,8 +71,8 @@ Once the final SOAM structure was built, key space object names and IDs found in
 
 ## FINISHED PRODUCT
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 https://welcome.astrobin.com/blog/december2023-update#:~:text=who%20contributed%20the-,synonyms%20list,-as%20part%20of
