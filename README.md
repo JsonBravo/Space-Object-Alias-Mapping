@@ -67,7 +67,7 @@ Once the final SOAM structure was built, key space object names and IDs found in
 ## CONSIDERATIONS
 * Unfortunately, in the SOAM, there were some pockets where the associations fed into the SOAM were incorrect (stemming from SIMBAD database). I've corrected what I could, but other pockets may still be in there, unknown to me.
 
-* The synonyms file is in solr format and was trimmed back / focused on only 556 space objects out of the 4,264 that were available in the SOAM.
+* The synonyms file is in solr format and was trimmed back / focused on only 556 space objects out of the 4,264 that were available in the SOAM. These 556 space objects are "photo friendly" as determined by their appearance in one or more Astrobin image title (over 60,000 titles were reviewed).
 
 ## FINISHED PRODUCT
 
